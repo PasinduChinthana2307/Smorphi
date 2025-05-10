@@ -1,6 +1,6 @@
 #include "ros2_mpu6050/mpu6050_node.h"
 #include <Eigen/Geometry>
-#include <tf2/LinearMath/Quaternion.h>
+#include <tf2/tf2/LinearMath/Quaternion.h>
 #include <chrono>
 #include <memory>
 
