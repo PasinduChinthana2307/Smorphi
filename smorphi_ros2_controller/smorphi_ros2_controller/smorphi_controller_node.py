@@ -23,7 +23,7 @@ class SmorphiController(Node):
 		
 		self.create_subscription(Int32, "shape_need", self.shpneed, 10)
 		#self.shape_pub = self.create_publisher(Int32, "current_shape", 50)
-		self.ser = serial.Serial('/dev/smorphi_mb',115200, timeout=0.005)
+		self.ser = serial.Serial('/dev/ttyUSB1',115200, timeout=0.005)
 		
 		self.x = 0.0
 		self.y = 0.0
