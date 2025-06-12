@@ -15,8 +15,8 @@ def generate_launch_description():
 	),
 	IncludeLaunchDescription(
 		PythonLaunchDescriptionSource(
-			os.path.join(get_package_share_directory('smorphi_ros_imu'),
-				"launch/smorphi_imu_ros2.launch.py")
+			os.path.join(get_package_share_directory('mpu9250driver'),
+				"launch/mpu9250driver_launch.py")
 		)
 	),
 	IncludeLaunchDescription(
